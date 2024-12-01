@@ -1,0 +1,11 @@
+﻿{{ partial "header.html" . }}
+<body style="text-align: center;">
+<h1>All Posts</h1>
+    {{ range .RegularPages }}
+    <li>
+        <h2><a href="{{ .RelPermalink }}"><u>{{ .Title }}</u></a></h2>
+        <time datetime="{{ .Date }}">{{ .Date | time.Format ":date_full" }}</time>
+        <p>{{ .Summary | plainify }}</p>
+    </li>
+    {{ end }}
+{{ partial "footer.html" . }}

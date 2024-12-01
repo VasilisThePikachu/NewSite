@@ -1,0 +1,40 @@
+﻿{{ partial "header.html" . }}
+<body style="text-align: center;">
+<div class="container">
+    <h1>{{ .Title }}</h1>
+    <div class="border">
+        {{ .Content }}
+    </div>
+    <div class="border">
+        <h2>Contacts</h2>
+        <a href="mailto:{{ .Site.Param "email" }}" class="fa fa-envelope fa-2x" target="_blank"> Email </a>
+        <a href="/files/Vasilis The Pikachu Public.asc" class="fa fa-lock fa-2x" target="_blank"> My public PGP key </a>
+        <a href="https://github.com/VasilisThePikachu" class="fa fa-github fa-2x" target="_blank"> GitHub </a>
+        <a class="fa fa-discord fa-2x" onclick="discord()" target="_blank"> Discord </a>
+        <a href="https://matrix.to/#/@vasilisthechu:matrix.org" class="fa fa-matrix-org fa-2x" target="_blank"> Matrix </a>
+        <a rel="me" href="{{ .Site.Param "fedi" }}" class="fa fa-mastodon fa-2x" target="_blank"> Mastodon </a>
+    </div>
+    <script type="text/javascript">
+        document.write(getRandomImage());
+    </script>
+</div>
+<div style="display: flex; flex-direction:column; align-items: center; justify-content:center;">
+    <select id="selectedRing" onchange="ringSelector()">
+        <option value="fediring">Fediring</option>
+        <option value="furryring">Furryring</option>
+    </select>
+    <p id="fediring">
+        <a href="https://fediring.net/previous?host=pikachu.systems">←</a>
+        <a href="https://fediring.net/">Fediring</a>
+        <a href="https://fediring.net/next?host=pikachu.systems">→</a>
+    </p>
+    <p id="furryring" hidden="true">
+        <a href="https://asasasasas.net/previous?host=pikachu.systems">←</a>
+        <a href="https://asasasas.net/">sasasasaasa</a>
+        <a href="https://asasasasa.net/next?host=pikachu.systems">→</a>
+    </p>
+</div>
+<div style="bottom: 30px;">
+    <p><small>I am in no way affiliated with Nintendo or The Pokémon Company, I'm just a fan of pikachu</small></p>
+</div>
+{{ partial "footer.html" . }}

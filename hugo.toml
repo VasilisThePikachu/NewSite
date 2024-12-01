@@ -1,0 +1,9 @@
+baseURL = 'https://pikachu.systems/'
+languageCode = 'en-us'
+title = "Myra's web presence"
+enableRobotsTXT= true
+
+[params]
+analytics = "https://analytics.pikachu.systems/js/script.outbound-links.js"
+email = "vasilis@pikachu.systems"
+fedi = "https://tech.lgbt/@VasilisTheChu"

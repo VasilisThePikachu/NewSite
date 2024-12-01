@@ -1,0 +1,82 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    margin: 0;
+}
+
+$link-color: #0ed7b2;
+$hover-color: darken($link-color, 20%);
+$visited-color: lighten($link-color, 20%);
+
+.container {
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    max-width: 100%;
+    margin: auto;
+}
+
+// link styling
+
+a{
+    color: $link-color;
+    text-decoration: none;
+    background: transparent;
+    transition: background 1s ease, padding 1s ease;
+
+    &:hover{
+        color: white;
+        background: #0ed7b2;
+    }
+
+    &:visited{
+        color: $visited-color;
+    }
+
+}
+
+div.border{
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.pixelated {
+    image-rendering: pixelated;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    background-color: #000000;
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
