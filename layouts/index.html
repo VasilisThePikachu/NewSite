@@ -19,7 +19,8 @@
     </script>
 </div>
 <div style="display: flex; flex-direction:column; align-items: center; justify-content:center;">
-    <select id="selectedRing" onchange="ringSelector()">
+    <p>Select a ring</p>
+    <select id="selectedRing" onchange="ringSelector()" selected="fediring">
         <option value="fediring">Fediring</option>
         <option value="furryring">Furryring</option>
     </select>
@@ -28,11 +29,10 @@
         <a href="https://fediring.net/">Fediring</a>
         <a href="https://fediring.net/next?host=pikachu.systems">→</a>
     </p>
-    <p id="furryring" hidden="true">
-        <a href="https://asasasasas.net/previous?host=pikachu.systems">←</a>
-        <a href="https://asasasas.net/">sasasasaasa</a>
-        <a href="https://asasasasa.net/next?host=pikachu.systems">→</a>
-    </p>
+    <div id='furryring' hidden="true">
+        <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
+        <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
+    </div>
 </div>
 <div style="bottom: 30px;">
     <p><small>I am in no way affiliated with Nintendo or The Pokémon Company, I'm just a fan of pikachu</small></p>

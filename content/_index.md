@@ -1,8 +1,11 @@
-﻿---
-title: Hello!
-description: Welcome to my personal webpage/blog
----
-I'm Myra and welcome to my personal webpage/blog thingy.
+﻿+++
+title = "Myra's web presence"
+description = "Welcome to my personal webpage/blog"
+images = ['/images/pikachu.gif']
+tags = ['pokemon', 'coding', 'programming', 'furry', 'furries', 'ss14', 'space station 14']
++++
+
+Hello! I'm Myra and welcome to my personal webpage/blog thingy.
 
 ### Bit about me
 
