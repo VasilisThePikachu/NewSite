@@ -1,7 +1,12 @@
 ﻿{{ define "main" }}
 <body style="text-align: center;">
 <h1>{{ .Title }}</h1>
+<div class="container">
 <div class="border">
   {{ .Content }}
 </div>
+</div>
+{{ end }}
+{{ define "title" }}
+Projects - {{ .Site.Title }}
 {{ end }}

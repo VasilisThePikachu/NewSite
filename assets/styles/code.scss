@@ -1,0 +1,72 @@
+﻿pre {
+  background: var(--bg-code-block);
+  border: 1px solid var(--border-code-block);
+  border-radius: 5px;
+  direction: ltr;
+  font-style: normal;
+  min-width: 200px;
+  padding: 0.5em;
+  tab-size: 4;
+  text-align: left;
+  color: var(--fg-code-block);
+
+  /* Colors */
+  --comment: #608b4e;
+  --string: #D69D85;
+  --keyword: #569cd6;
+  --method: #dcdcaa;
+  --classname: #4ec9b0;
+  --number: #b5cea8;
+
+  margin: 0;
+  white-space: pre-wrap;
+  margin-bottom: var(--para-margin);
+
+  code {
+    padding: 0;
+    border: 0;
+    background: unset;
+  }
+
+  .hll { background-color: #ffffcc }
+  .c { color: var(--comment) } /* Comment */
+  .err { border: 1px solid #FF0000 } /* Error */
+  .k { color: var(--keyword) } /* Keyword */
+  .ch { color: var(--comment) } /* Comment.Hashbang */
+  .cm { color: var(--comment) } /* Comment.Multiline */
+  .cp { color: var(--keyword) } /* Comment.Preproc */
+  .cpf { color: var(--comment) } /* Comment.PreprocFile */
+  .c1 { color: var(--comment) } /* Comment.Single */
+  .cs { color: var(--comment) } /* Comment.Special */
+  .ge { font-style: italic } /* Generic.Emph */
+  .gh { font-weight: bold } /* Generic.Heading */
+  .gp { font-weight: bold } /* Generic.Prompt */
+  .gs { font-weight: bold } /* Generic.Strong */
+  .gu { font-weight: bold } /* Generic.Subheading */
+  .kc { color: var(--keyword) } /* Keyword.Constant */
+  .kd { color: var(--keyword) } /* Keyword.Declaration */
+  .kn { color: var(--keyword) } /* Keyword.Namespace */
+  .kp { color: var(--keyword) } /* Keyword.Pseudo */
+  .kr { color: var(--keyword) } /* Keyword.Reserved */
+  .kt { color: var(--keyword) } /* Keyword.Type */
+  .s { color: var(--string) } /* Literal.String */
+  .m { color: var(--number) } /* Literal.Number */
+  .nc { color: var(--classname) } /* Name.Class */
+  .nn { color: var(--classname) } /* Name.Namespace */
+  .nt { color: var(--keyword) } /* Name.Tag */
+  .ow { color: #6666ff } /* Operator.Word */
+  .sa { color: var(--string) } /* Literal.String.Affix */
+  .sb { color: var(--string) } /* Literal.String.Backtick */
+  .sc { color: var(--string) } /* Literal.String.Char */
+  .dl { color: var(--string) } /* Literal.String.Delimiter */
+  .sd { color: var(--string) } /* Literal.String.Doc */
+  .s2 { color: var(--string) } /* Literal.String.Double */
+  .se { color: var(--string) } /* Literal.String.Escape */
+  .sh { color: var(--string) } /* Literal.String.Heredoc */
+  .si { color: var(--string) } /* Literal.String.Interpol */
+  .sx { color: var(--string) } /* Literal.String.Other */
+  .sr { color: var(--string) } /* Literal.String.Regex */
+  .s1 { color: var(--string) } /* Literal.String.Single */
+  .ss { color: var(--string) } /* Literal.String.Symbol */
+  .nf { color: var(--method) } /* Name.Function */
+}

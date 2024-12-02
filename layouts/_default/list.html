@@ -3,9 +3,16 @@
 <h1>All Posts</h1>
     {{ range .RegularPages }}
     <li>
-        <h2><a href="{{ .RelPermalink }}"><u>{{ .Title }}</u></a></h2>
-        <time datetime="{{ .Date }}">{{ .Date | time.Format ":date_full" }}</time>
-        <p>{{ .Summary | plainify }}</p>
+        <div class="container">
+        <div class="border">
+            <h2><a href="{{ .RelPermalink }}"><u>{{ .Title }}</u></a></h2>
+            <time datetime="{{ .Date }}">{{ .Date | time.Format ":date_full" }}</time>
+            <p>{{ .Summary | plainify }}</p>
+        </div>
+        </div>
     </li>
     {{ end }}
+{{ end }}
+{{ define "title" }}
+All Posts - {{ .Site.Title }}
 {{ end }}

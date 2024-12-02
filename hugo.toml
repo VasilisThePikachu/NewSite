@@ -3,7 +3,29 @@ languageCode = 'en-us'
 title = "Myra's web presence"
 enableRobotsTXT= true
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
 analytics = "https://analytics.pikachu.systems/js/script.outbound-links.js"
 email = "vasilis@pikachu.systems"
 fedi = "https://tech.lgbt/@VasilisTheChu"
+fedicreator = "@VasilisTheChu@tech.lgbt"
+
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+hl_inline = false
+lineAnchors = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = false
+noHl = false
+tabWidth = 4
+
+[goldmark.parser.attribute]
+block = true
+title = true

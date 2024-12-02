@@ -1,15 +1,16 @@
+@import "./_colors.scss";
+@import "./code.scss";
+
+$width: 1280px;
+
 body {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--bg-main);
+    color: var(--fg-main);
     font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 1;
     margin: 0;
 }
-
-$link-color: #0ed7b2;
-$hover-color: darken($link-color, 20%);
-$visited-color: lighten($link-color, 20%);
 
 .container {
     top: 50%;
@@ -22,20 +23,31 @@ $visited-color: lighten($link-color, 20%);
 // link styling
 
 a{
-    color: $link-color;
+    color: var(--fg-link-normal);
     text-decoration: none;
     background: transparent;
     transition: background 1s ease, padding 1s ease;
 
-    &:hover{
-        color: white;
-        background: #0ed7b2;
-    }
-
     &:visited{
-        color: $visited-color;
+        color: var(--fg-link-visited);
     }
 
+    &:hover{
+        color: var(--fg-link-hover);
+    }
+}
+
+#contacts a:visited:not(:hover){
+    color: var(--fg-link-normal)
+}
+
+a.heading-anchor {
+    color: var(--fg-main);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 div.border{
@@ -55,11 +67,12 @@ div.border{
     align-items: center;
     justify-content: center;
     top: 0;
-    background-color: #000000;
+    background-color: var(--bg-main);
     background-blend-mode: darken;
     background-size: cover;
-    color: white;
+    color: var(--fg-main);
     padding: 10px 20px;
+    transition: top 0.3s;
 }
 
 .nav-list {
@@ -70,12 +83,36 @@ div.border{
     justify-content: center;
 }
 
-.nav-list li:last-child {
-    //margin-right: 0;
-}
-
 .nav-list li a {
     text-decoration: none;
-    color: white;
+    color: var(--fg-main);
     font-size: 18px;
+}
+
+body.article {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body.article > :not(.navbar) {
+    width: $width;
+    padding: 0 10px;
+
+    @media (max-width: $width) {
+        width: 100%;
+    }
+}
+
+.articlemeta {
+    color: var(--fg-detail);
+}
+
+code {
+    background-color: var(--bg-code);
+    border-radius: 5px;
+    padding: 0 .15em;
+    border: 1px solid var(--border-code);
+    overflow-wrap: break-word;
 }

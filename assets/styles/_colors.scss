@@ -1,0 +1,36 @@
+﻿$fg-link-normal: #0ed7b2;
+
+html {
+  --bg-main: #131313;
+  --fg-main: #ffffff;
+
+  --fg-link-normal: #{$fg-link-normal};
+  --fg-link-hover: white;
+  --fg-link-visited: #{lighten($fg-link-normal, 20%)};
+
+  --fg-detail: #999999;
+
+
+  /* Code blocks */
+  --bg-code: #0d0c11;
+  --border-code: #2D384C;
+
+
+  --fg-code-block: #e9e9e9;
+  --bg-code-block: #0d0c11;
+  --border-code-block: #2D384C;
+
+
+  @media (prefers-color-scheme: light) {
+    --bg-main: #ebeadd;
+    --fg-main: black;
+
+    --fg-link-hover: black;
+    --fg-link-visited: #{darken($fg-link-normal, 20%)};
+
+    --fg-detail: #777777;
+
+    --bg-code: #d8d6bd;
+    --border-code: #c0bea1;
+  }
+}
