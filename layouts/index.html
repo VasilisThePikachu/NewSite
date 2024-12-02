@@ -1,4 +1,5 @@
-﻿{{ partial "header.html" . }}
+﻿{{ define "main" }}
+
 <body style="text-align: center;">
 <div class="container">
     <h1>{{ .Title }}</h1>
@@ -37,4 +38,5 @@
 <div style="bottom: 30px;">
     <p><small>I am in no way affiliated with Nintendo or The Pokémon Company, I'm just a fan of pikachu</small></p>
 </div>
-{{ partial "footer.html" . }}
+
+{{ end }}

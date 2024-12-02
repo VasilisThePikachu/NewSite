@@ -1,0 +1,38 @@
+﻿{{ $js := resources.Get "js/js.js" | minify  }}
+{{ $styles := resources.Get "styles/styles.scss" | toCSS | minify  }}
+
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
+  <script src="{{ $js.RelPermalink }}"></script>
+  <title>{{ .Site.Title }}</title>
+
+  {{ hugo.Generator }}
+  {{ template "_internal/schema.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ template "_internal/opengraph.html" . }}
+
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <script defer data-domain="pikachu.systems" src="{{ .Site.Param "analytics" }}"></script>
+
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a href="/">Home</a></li>
+      <li><a href="/posts">Posts</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/index.xml">RSS</a></li>
+    </ul>
+  </nav>
+
+  {{ block "main" . }}
+  {{ end }}
+
+  </body>
+</html>
