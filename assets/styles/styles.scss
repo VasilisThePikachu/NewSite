@@ -53,7 +53,7 @@ div.border{
     display: flex;
     position: sticky;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     top: 0;
     background-color: #000000;
     background-blend-mode: darken;
@@ -65,14 +65,13 @@ div.border{
 .nav-list {
     display: flex;
     list-style: none;
-}
-
-.nav-list li {
-    margin-right: 20px;
+    padding-left: 0;
+    gap: 15px;
+    justify-content: center;
 }
 
 .nav-list li:last-child {
-    margin-right: 0;
+    //margin-right: 0;
 }
 
 .nav-list li a {
