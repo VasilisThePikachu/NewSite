@@ -5,13 +5,13 @@ images = ['/images/pikachu.gif']
 tags = ['pokemon', 'coding', 'programming', 'furry', 'furries', 'ss14', 'space station 14']
 +++
 
-Hello! I'm Myra and welcome to my personal webpage/blog thingy.
+Hello! I'm Myra (My IRL name is Vasilis) and welcome to my personal webpage/blog thingy.
 
 ### Bit about me
 
 I'm Pansexual and Genderfluid. I go by any pronouns.
 
-I am a furry, I will at some point make a separate page about my sonas.
+I am a furry, my current "main" being an avali. I will at some point make a separate page about my sonas.
 
 I like Pikachu WAYY too much.
 
