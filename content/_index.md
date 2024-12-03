@@ -2,7 +2,7 @@
 #title = "Myra's web presence"
 description = "Welcome to my personal webpage/blog"
 images = ['/images/pikachu.gif']
-tags = ['pokemon', 'coding', 'programming', 'furry', 'furries', 'ss14', 'space station 14']
+#tags = ['pokemon', 'coding', 'programming', 'furry', 'furries', 'ss14', 'space station 14']
 +++
 
 Hello! I'm Myra (My IRL name is Vasilis) and welcome to my personal webpage/blog thingy.
