@@ -30,3 +30,6 @@ tabWidth = 4
 [goldmark.parser.attribute]
 block = true
 title = true
+
+[outputs]
+home     = ["HTML"]
