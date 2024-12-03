@@ -8,7 +8,7 @@ enableRobotsTXT= true
 unsafe= true
 
 [params]
-analytics = "https://analytics.pikachu.systems/js/script.outbound-links.js"
+analytics = "https://analytics.pikachu.systems/js/script.hash.outbound-links.js"
 email = "vasilis@pikachu.systems"
 fedi = "https://tech.lgbt/@VasilisTheChu"
 fedicreator = "@VasilisTheChu@tech.lgbt"
