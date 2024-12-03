@@ -2,6 +2,7 @@ baseURL = 'https://pikachu.systems/'
 languageCode = 'en-us'
 title = "Myra's web presence"
 enableRobotsTXT= true
+#buildFuture = true
 
 [markup.goldmark.renderer]
 unsafe= true

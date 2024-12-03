@@ -2,6 +2,7 @@
 title: My projects
 description: Here's some stuff I worked on
 layout: "projects"
+aliases: /portfolio.html
 ---
 
 <br />
