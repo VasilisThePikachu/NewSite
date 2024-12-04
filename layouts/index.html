@@ -11,7 +11,7 @@
         <a href="mailto:{{ .Site.Param "email" }}" class="ri-mail-fill ri-2x" target="_blank"> Email </a>
         <a href="/files/Vasilis The Pikachu Public.asc" class="ri-git-repository-private-fill ri-2x" target="_blank"> Public PGP key </a>
         <a href="https://github.com/VasilisThePikachu" class="ri-github-fill ri-2x" target="_blank"> GitHub </a>
-        <a class="ri-discord-fill ri-2x" onclick="discord()" target="_blank"> Discord </a>
+        <a class="ri-discord-fill ri-2x" onkeydown="discord()" onclick="discord()" target="_blank" tabindex=0> Discord </a>
         <a href="https://matrix.to/#/@vasilisthechu:matrix.org" class="ri-chat-3-fill ri-2x" target="_blank"> Matrix </a>
         <a rel="me" href="{{ .Site.Param "fedi" }}" class="ri-mastodon-fill ri-2x" target="_blank"> Mastodon </a>
         <a href="https://signal.me/#eu/Xa_IRZqvC0F3kT_lANWx4QgMHy7AdoErvz36ZNLixjc8Hy5SvNZFgazo60ndfdas" class="ri-chat-3-fill ri-2x" target="_blank"> Signal </a>
@@ -19,19 +19,25 @@
     <script type="text/javascript">
         document.write(getRandomImage());
     </script>
+    <noscript>
+        <img class="image pixelated" src="/images/pikachu-fem.png" alt="A gif of a pikachu from gen 5" width="160px" height= "auto">
+    </noscript>
 </div>
 <div style="display: flex; flex-direction:column; align-items: center; justify-content:center;">
-    <p>Select a ring</p>
-    <select id="selectedRing" onchange="ringSelector()" selected="fediring">
+    <noscript><p>Sorry nojs users but this selector currently needs js. I will fix it sometime. Everything else should work tho.</p></noscript>
+    <label>Select a ring <br/><br/>
+    <select id="selectedRing" onchange="ringSelector()" selected="fediring" class="hide-no-js">
         <option value="fediring">Fediring</option>
         <option value="furryring">Furryring</option>
     </select>
+    </label>
     <p id="fediring">
         <a href="https://fediring.net/previous?host=pikachu.systems">←</a>
         <a href="https://fediring.net/">Fediring</a>
         <a href="https://fediring.net/next?host=pikachu.systems">→</a>
     </p>
     <div id='furryring' hidden="true">
+        <noscript><p>Furryring uses some js to display this and im not TOO sure yet if I can do it in pure html. So you get this instead.</p></noscript>
         <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
         <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
     </div>
