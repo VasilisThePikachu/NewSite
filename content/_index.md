@@ -11,9 +11,11 @@ Hello! I'm Myra (My IRL name is Vasilis) and welcome to my personal webpage/blog
 
 I'm Pansexual and Genderfluid. I go by any pronouns.
 
-I am a furry, my current "main" being an avali. I will at some point make a separate page about my sonas.
+I am a furry, my current "main" being an Avali. 
 
-I like Pikachu WAYY too much.
+I will at some point make a separate page about my sonas.
+
+I like Pikachu a lot. Which is why I kinda branded this site after this mouse.
 
 ### What to expect here
 

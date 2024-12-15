@@ -51,7 +51,7 @@ a.heading-anchor {
 }
 
 div.border{
-    border: 1px solid #ffffff;
+    border: 1px solid var(--fg-border);
     border-radius: 20px;
     margin-bottom: 15px;
     padding: 5px;
@@ -81,6 +81,8 @@ div.border{
     padding-left: 0;
     gap: 15px;
     justify-content: center;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .nav-list li a {

@@ -1,7 +1,7 @@
 ﻿$fg-link-normal: #0ed7b2;
 
 html {
-  --bg-main: #131313;
+  --bg-main: #101019;
   --fg-main: #ffffff;
 
   --fg-link-normal: #{$fg-link-normal};
@@ -9,6 +9,8 @@ html {
   --fg-link-visited: #{lighten($fg-link-normal, 20%)};
 
   --fg-detail: #999999;
+
+  --fg-border: white;
 
 
   /* Code blocks */
@@ -22,13 +24,16 @@ html {
 
 
   @media (prefers-color-scheme: light) {
-    --bg-main: #ebeadd;
+    --bg-main: #F8FAFC;
     --fg-main: black;
 
+    --fg-link-normal: #{darken($fg-link-normal, 6%)};
     --fg-link-hover: black;
     --fg-link-visited: #{darken($fg-link-normal, 20%)};
 
     --fg-detail: #777777;
+
+    --fg-border: black;
 
     --bg-code: #d8d6bd;
     --border-code: #c0bea1;
