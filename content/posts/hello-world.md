@@ -18,7 +18,7 @@ The background is a bit less dark for dark mode and now supports light mode as w
 
 A bunch of css and hugo shit was stolen from my [friend PJB](https://slugcat.systems/) cause this shit is scary. I did some stuff myself too though. 
 
-I added myself to the furryring and made a fediring selector. 
+I added myself to the furryring and made a webring selector. 
 
 Javascript is scary.
 
