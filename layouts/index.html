@@ -3,20 +3,18 @@
 <body style="text-align: center;">
 <div class="container">
     <h1>{{ .Site.Title }}</h1>
-    <div class="border">
+    <div class="bordermain">
         {{ .Content }}
     </div>
     <div class="border" id="contacts">
         <h2>Contacts</h2>
-        <a href="mailto:{{ .Site.Param "email" }}" class="ri-mail-fill ri-2x" target="_blank"> Email </a>
-        <a href="/files/Vasilis The Pikachu Public.asc" class="ri-git-repository-private-fill ri-2x" target="_blank"> Public PGP key </a>
-        <a href="https://github.com/VasilisThePikachu" class="ri-github-fill ri-2x" target="_blank"> GitHub </a>
-        <a class="ri-discord-fill ri-2x" onkeydown="discord()" onclick="discord()" target="_blank" tabindex=0> Discord </a>
-        <a href="https://matrix.to/#/@vasilisthechu:matrix.org" class="ri-chat-3-fill ri-2x" target="_blank"> Matrix </a>
-        <a rel="me" href="{{ .Site.Param "fedi" }}" class="ri-mastodon-fill ri-2x" target="_blank"> Mastodon </a>
-        <a href="https://signal.me/#eu/5w4o68cj6NZJfm4TrtVA4KWTpxW2JLGh8wZL6aoo80-B9j5uqmlOW5M0AqNWy-jD" class="ri-chat-3-fill ri-2x" target="_blank"> Signal </a>
-        <a href="https://bsky.app/profile/pikachu.systems" class="ri-bluesky-fill ri-2x" target="_blank"> Bluesky </a>
-        <a href="https://steamcommunity.com/id/pikachuuuuuuuuuuuuu/" class="ri-steam-fill ri-2x" target="_blank"> Steam </a>
+        <a href="mailto:{{ .Site.Param "email" }}" class="a-contacts-size" target="_blank"><i class="ri-mail-fill"></i> Email </a>
+        <a href="/files/Vasilis The Pikachu Public.asc" class="a-contacts-size" target="_blank"><i class="ri-git-repository-private-fill"></i> Public PGP key </a>
+        <a href="https://github.com/VasilisThePikachu" class="a-contacts-size" target="_blank"><i class="ri-github-fill"></i> GitHub </a>
+        <a onkeydown="discord()" onclick="discord()" class="a-contacts-size" target="_blank" tabindex=0><i class="ri-discord-fill"></i> Discord </a>
+        <a rel="me" href="{{ .Site.Param "fedi" }}" class="a-contacts-size" target="_blank"><i class="ri-mastodon-fill"></i> Mastodon </a>
+        <a href="https://signal.me/#eu/5w4o68cj6NZJfm4TrtVA4KWTpxW2JLGh8wZL6aoo80-B9j5uqmlOW5M0AqNWy-jD" class="a-contacts-size" target="_blank"><i class="ri-chat-3-fill"></i> Signal </a>
+        <a href="https://bsky.app/profile/pikachu.systems" class="a-contacts-size" target="_blank"><i class="ri-bluesky-fill"></i> Bluesky </a>
     </div>
     <script type="text/javascript">
         document.write(getRandomImage());
