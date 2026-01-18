@@ -26,7 +26,7 @@ In simpler words, it is a "darknet"[^1] where you get to play around with the to
 
 I manage [AS-ILLUMINATE (ASN4242421413)](https://dn42.g-load.eu/explorer/#/aut-num/AS4242421413) in reference after the Avali species.
 
-Do you want to peer with me? Check out [this page](404) for more info.
+Do you want to peer with me? Check out [this page](/dn42-peering) for more info.
 
 [^1]: A darknet is an overlay network within the Internet that can only be accessed with specific software, configurations, or authorization ([Wikipedia](https://en.wikipedia.org/wiki/Darknet)). Not all darknets are for sinister purposes.
 <details>
