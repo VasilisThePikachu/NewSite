@@ -12,7 +12,11 @@ Hello! I'm Myra and welcome to my personal blog thingy.
 
 ### Bit about me
 
-I'm Pansexual and Genderfluid. I go by any pronouns.
+I am a self taught programmer and system admin, I tend to enjoy touching computers and related topics a lot.
+
+My primary project currently is [Space Station 14](https://spacestation14.com/).
+
+I'm Pansexual and Genderfluid. I go by any pronouns but usually default to she/her.
 
 I am a furry, an Avali to be specific. 
 
@@ -20,5 +24,5 @@ I like Pikachu a lot. Which is why I kinda branded this site after this mouse.
 
 ### What to expect here
 
-Mostly just me showing off my projects/what I work off. And the occasional blog post on the side.
+Mostly just me showing off my [projects/what I work on](/projects). And the occasional blog post on the side.
 </div>
