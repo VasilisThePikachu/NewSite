@@ -1,6 +1,6 @@
 baseURL = 'https://pikachu.systems/'
 languageCode = 'en-us'
-title = "The Bird's Nest"
+title = "Myra's Bird Nest"
 enableRobotsTXT= true
 #buildFuture = true
 
