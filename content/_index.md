@@ -12,7 +12,7 @@ Hello! I'm Myra and welcome to my personal blog thingy.
 
 ### Bit about me
 
-I am a self taught programmer and system admin, I tend to enjoy touching computers and related topics a lot.
+I am a self taught programmer and system admin, I tend to enjoy interacting with computers and related topics a lot.
 
 My primary project currently is [Space Station 14](https://spacestation14.com/).
 
