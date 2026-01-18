@@ -20,7 +20,7 @@ Space Station 14 is currently my main and most contributed to project.
 <img src="/images/projects/dn42.png" alt="DN42 Logo" width="150"/>
 
 ## [dn42](https://dn42.eu/Home)
-dn42 is a large, dynamic VPN that employs Internet technologies (BGP, whois database, DNS, etc.). Participants connect to each other using network tunnels (GRE, OpenVPN, WireGuard, Tinc, IPsec) and exchange routes using the Border Gateway Protocol.
+dn42 is a large, dynamic VPN that employs Internet technologies (BGP, whois database, DNS, etc.). Participants connect to each other using network tunnels and exchange routes using the Border Gateway Protocol.
 
 In simpler words, it is a "darknet"[^1] where you get to play around with the tools real world ISP's use in order to let you use the internet and provide you with other services.
 
