@@ -150,3 +150,38 @@ code {
             justify-content: space-around;
     }
 }
+
+blockquote {
+  background-color: var(--bg-code);
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
+section.thought {
+	padding: 6px;
+
+	background-color: var(--bg-thought);
+	border-radius: 5px;
+	border-left: 4px solid var(--border-thought);
+
+	margin: 18px 0;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	> h1, > h2, > h3, > h4, > h5 {
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}
