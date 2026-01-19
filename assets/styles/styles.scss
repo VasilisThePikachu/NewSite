@@ -146,12 +146,24 @@ code {
     display: block
   }
 
+div.blog {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    box-sizing: border-box; 
+}
+
 @media screen and (min-width : 800px) {
     div.bordermain {
             flex-direction: row-reverse;
             justify-content: space-around;
     }
+
+    div.blog {
+        padding: 0px;
+    }
 }
+
 
 blockquote {
   background-color: var(--bg-code);
