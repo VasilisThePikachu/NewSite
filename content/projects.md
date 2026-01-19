@@ -6,7 +6,10 @@ aliases: /portfolio.html
 ---
 
 <br />
-<img src="/images/projects/ss14.svg" alt="Space Station 14 Logo" width="150"/>
+<picture>
+    <source srcset="/images/projects/ss14-light.svg" media="(prefers-color-scheme: light)">
+    <img src="/images/projects/ss14.svg" alt="Space Station 14 Logo" width="150"/>
+</picture>
 
 ## [Space Station 14](https://spacestation14.com/)
 Space Station 14 is a multiplayer open source game made in C# using the [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) game engine.
@@ -17,7 +20,10 @@ I additionally also help manage the account and game infrastracture for the offi
 
 Space Station 14 is currently my main and most contributed to project.
 
-<img src="/images/projects/dn42.png" alt="DN42 Logo" width="150"/>
+<picture>
+    <source srcset="/images/projects/dn42.svg" media="(prefers-color-scheme: light)">
+    <img src="/images/projects/dn42-dark.svg" alt="DN42 Logo" width="150"/>
+</picture>
 
 ## [dn42](https://dn42.eu/Home)
 dn42 is a large, dynamic VPN that employs Internet technologies (BGP, whois database, DNS, etc.). Participants connect to each other using network tunnels and exchange routes using the Border Gateway Protocol.
