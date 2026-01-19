@@ -60,19 +60,13 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload to Cinccino
+        uses: burnett01/rsync-deployments@v8
         with:
-          path: ./public
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          switches: -rchvzP --delete
+          path: ./public/*
+          remote_path: .
+          remote_host: cinccino.pikachu.systems
+          remote_user: github
+          remote_key: ${{ secrets.PUSH }}
+          remote_key_pass: ${{ secrets.PUSH_KEY }}
