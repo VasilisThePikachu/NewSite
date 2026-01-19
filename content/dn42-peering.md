@@ -9,7 +9,7 @@ This page provides information to peer with me on [dn42](/projects#dn42httpsdn42
 
 ### Requirements:
 - Good contact info.
-- Latency less then 50ms to the node(s) you wish to peer with.
+- Latency less then 70ms to the node(s) you wish to peer with.
 - Willing to use Wireguard.
     - Preferbly with a pre-shared key but not required.
 - Extended next hop support.
