@@ -64,7 +64,7 @@ jobs:
         uses: burnett01/rsync-deployments@v8
         with:
           switches: -rchvzP --delete
-          path: ./public/*
+          path: ./public/
           remote_path: .
           remote_host: cinccino.pikachu.systems
           remote_user: github
