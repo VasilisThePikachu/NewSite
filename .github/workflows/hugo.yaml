@@ -53,7 +53,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "https://pikachu.systems/"          
       - name: Upload to Cinccino
         uses: burnett01/rsync-deployments@v8
         with:
