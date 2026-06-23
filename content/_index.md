@@ -14,8 +14,6 @@ Hello! I'm Myra and welcome to my personal blog thingy.
 
 I am a self taught programmer and system admin, I tend to enjoy interacting with computers and related topics a lot.
 
-My primary project currently is [Space Station 14](https://spacestation14.com/).
-
 I'm Pansexual and Genderfluid. I go by any pronouns but usually default to she/her.
 
 I am a furry, an Avali to be specific. 

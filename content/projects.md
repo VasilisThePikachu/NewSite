@@ -7,20 +7,6 @@ aliases: /portfolio.html
 
 <br />
 <picture>
-    <source srcset="/images/projects/ss14-light.svg" media="(prefers-color-scheme: light)">
-    <img src="/images/projects/ss14.svg" alt="Space Station 14 Logo" width="150"/>
-</picture>
-
-## [Space Station 14](https://spacestation14.com/)
-Space Station 14 is a multiplayer open source game made in C# using the [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) game engine.
-
-I have been a maintainer since <time datetime="2024-03-18T00:00:00+01:00">March 18, 2024</time> (and Lead Maintainer since <time datetime="2025-03-01T00:00:00+01:00">March 3, 2025</time>) where my main work is reviewing pull requests, helping direct the game design and game security.
-
-I additionally also help manage the account and game infrastracture for the official services.
-
-Space Station 14 is currently my main and most contributed to project.
-
-<picture>
     <source srcset="/images/projects/dn42.svg" media="(prefers-color-scheme: light)">
     <img src="/images/projects/dn42-dark.svg" alt="DN42 Logo" width="150"/>
 </picture>
@@ -38,6 +24,22 @@ Do you want to peer with me? Check out [this page](/dn42-peering) for more info.
 <details>
 <summary>Past projects</summary>
 <br>
+
+<picture>
+    <source srcset="/images/projects/ss14-light.svg" media="(prefers-color-scheme: light)">
+    <img src="/images/projects/ss14.svg" alt="Space Station 14 Logo" width="150"/>
+</picture>
+
+## [Space Station 14](https://spacestation14.com/)
+Space Station 14 is a multiplayer open source game made in C# using the [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) game engine.
+
+I had been a maintainer since <time datetime="2024-03-18T00:00:00+01:00">March 18, 2024</time> (and Lead Maintainer since <time datetime="2025-03-01T00:00:00+01:00">March 3, 2025</time>) where my main work was reviewing pull requests, helping direct the game design and game security.
+
+I additionally also helped manage the account and game infrastracture for the official services.
+
+Space Station 14 was my main and most contributed to project.
+
+On about <time datetime="2026-06-05T00:00:00+01:00">July 5, 2026</time>, I decided to step down from the project due to drama for my own mental health. I may return to it some day. But not any time soon.
 
 <img src="/images/projects/tor.png" alt="Tor Project Logo" width="150"/>
 
